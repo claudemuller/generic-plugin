@@ -37,7 +37,7 @@ gulp.task('scss', () => {
     .pipe(gulp.dest(`${dirs.dist}/assets/css`))
     .pipe(plugins().sass({ outputStyle:'compressed' }).on('error', plugins().sass.logError))
     .pipe(plugins().rename({ suffix: '.min' }))
-    .pipe(gulp.dest('.'));
+    .pipe(gulp.dest(`${dirs.dist}/assets/css`));
 });
 
 gulp.task('copy:misc', () =>
