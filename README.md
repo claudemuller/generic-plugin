@@ -1,7 +1,10 @@
 # Generic Plugin
 A generic WordPress plugin base
 
-## Install
+## Installation
+### Install
+`composer install`
+`npm install`
 ### Build
 `npm run build`
 ### Deploy
