@@ -1,0 +1,15 @@
+{
+    "name": "dxtrs/generic-plugin",
+    "description": "A generic WordPress plugin base",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Claude Müller",
+            "email": "hello@dxt.rs"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\":  "./inc"}
+    }
+}
